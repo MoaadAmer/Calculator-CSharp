@@ -1,6 +1,4 @@
-﻿using System.Diagnostics;
-
-Console.WriteLine("Hello!");
+﻿Console.WriteLine("Hello!");
 Console.WriteLine("Input the first number:");
 int a = int.Parse(Console.ReadLine());
 Console.WriteLine("Input the second number:");
@@ -25,7 +23,7 @@ switch (operation)
         break;
     default:
         Console.WriteLine("invalid choice!");
-        Console.WriteLine("press anykey to close");
+        Console.WriteLine("press any key to close.");
         Console.ReadLine();
         break;
 }
